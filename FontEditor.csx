@@ -818,7 +818,7 @@ class EditLetterGUI : Form
 		//Picture box click and drag
 		System.Timers.Timer mouseDownLoop = new System.Timers.Timer()
 		{
-			Interval = 100,
+			Interval = 40,
 			AutoReset = true,
 			Enabled = false
 		};
